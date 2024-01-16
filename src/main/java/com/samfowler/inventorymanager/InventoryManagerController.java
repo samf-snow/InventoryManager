@@ -1,4 +1,4 @@
-package com.samfowler.productcatalog;
+package com.samfowler.inventorymanager;
 
 import java.util.List;
 import org.slf4j.Logger;
@@ -11,17 +11,17 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.samfowler.productcatalog.entity.Product;
-import com.samfowler.productcatalog.exception.ProductNotFoundException;
-import com.samfowler.productcatalog.repository.ProductRepository;
+import com.samfowler.inventorymanager.entity.Product;
+import com.samfowler.inventorymanager.exception.ProductNotFoundException;
+import com.samfowler.inventorymanager.repository.ProductRepository;
 
 @RestController
-public class ProductCatalogController {
+public class InventoryManagerController {
 
 	private final ProductRepository repository;
-	private static final Logger log = LoggerFactory.getLogger(ProductCatalogController.class);
+	private static final Logger log = LoggerFactory.getLogger(InventoryManagerController.class);
 	
-	ProductCatalogController(ProductRepository repository){
+	InventoryManagerController(ProductRepository repository){
 		this.repository = repository;
 	}
 

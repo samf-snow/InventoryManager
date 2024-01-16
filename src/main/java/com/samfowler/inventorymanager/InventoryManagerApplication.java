@@ -1,13 +1,13 @@
-package com.samfowler.productcatalog;
+package com.samfowler.inventorymanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductCatalogApplication {
+public class InventoryManagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductCatalogApplication.class, args);
+		SpringApplication.run(InventoryManagerApplication.class, args);
 	}
 
 }

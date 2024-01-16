@@ -1,4 +1,4 @@
-package com.samfowler.productcatalog.entity;
+package com.samfowler.inventorymanager.entity;
 
 import java.util.Objects;
 

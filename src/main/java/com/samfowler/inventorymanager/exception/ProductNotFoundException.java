@@ -1,4 +1,4 @@
-package com.samfowler.productcatalog.exception;
+package com.samfowler.inventorymanager.exception;
 
 @SuppressWarnings("serial")
 public class ProductNotFoundException extends RuntimeException {
